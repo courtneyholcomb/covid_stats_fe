@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './App'
+// import NationalCases from './NationalCases';
+// import MostImpacted from './MostImpacted';
+// import QueryForm from './QueryForm';
 import * as serviceWorker from './serviceWorker';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
